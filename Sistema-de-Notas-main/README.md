@@ -1,6 +1,6 @@
-<h1 align="center"> NOTES APP CHALLENGE </h1>
-<p>This is a simple notes web app made with Spring Boot and React. It connects to a MySQL database and uses Spring Data JPA for persistance.</p>
-<p>This app was made for the challenge of Ensolvers.</p>
+<h1 align="center"> DESAFÍO DE APLICACIÓN DE NOTAS </h1>
+<p>Esta es una aplicación web de notas simple creada con Spring Boot y React. Se conecta a una base de datos MySQL y utiliza Spring Data JPA para la persistencia.</p>
+<p>Esta aplicación fue creada para el desafío de los solucionadores.</p>
 
 ## 🔨 Project funcionalities
 - `Show notes`:  The application allows you to view all notes. It also allows you to view archived and active notes.
