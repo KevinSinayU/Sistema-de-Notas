@@ -2,39 +2,37 @@
 <p>Esta es una aplicación web de notas simple creada con Spring Boot y React. Se conecta a una base de datos MySQL y utiliza Spring Data JPA para la persistencia.</p>
 <p>Esta aplicación fue creada para el desafío de los solucionadores.</p>
 
-## 🔨 Project funcionalities
-- `Show notes`:  The application allows you to view all notes. It also allows you to view archived and active notes.
-- `CRUD operations with notes`: In addition to being able to view the notes, the application allows you to add new notes, as well as edit and delete them.
-- `Tag notes`: The application allows you to classify your notes by putting labels on them.
-- `Filter notes`: The application allows you to filter notes according to categories. It also allows you to filter them according to whether they are active or archived
+## 🔨 Funcionalidades del proyecto
+- `Mostrar notas`: La aplicación permite visualizar todas las notas. También permite visualizar notas archivadas y activas.
+- `Operaciones CRUD con notas`: Además de poder visualizar las notas, la aplicación permite añadir nuevas notas, así como editarlas y eliminarlas.
+- `Etiquetar notas`: La aplicación permite clasificar tus notas poniéndoles etiquetas.
+- `Filtrar notas`: La aplicación permite filtrar notas según categorías. También te permite filtrarlas según estén activas o archivadas
 
-## 💻Tecnologies used 
+## 💻Tecnologías utilizadas
 
 - `Spring Boot`
 - `Spring Data JPA`
 - `React`
 - `MySQL`
 
-## 💾Important versions for executing the application
+## 💾Versiones importantes para ejecutar la aplicación
 - `Node`:20.11.0
 - `Npm`:10.2.5
 - `Jdk`:21
 
-## 🛠️ IMPORTANT info for executing the application
-<p>On this repository there is a bash script for excecuting the app. When executing this script, is going to ask you some information such as:</p>
+## 🛠️ Información IMPORTANTE para ejecutar la aplicación
+<p>En este repositorio hay un script bash para ejecutar la aplicación. Al ejecutar este script, te va a pedir algunos datos como:</p>
 
-- `Your MySQL database user and password`: to change the application properties.
-- `Your MySQL database name`: if the database does not exist it will create it.
-- `The path to the Spring Boot and React files`: to run the application.
-  
-To run the script, first navigate to the directory where you saved the script. Then make sure that you have the execute permission for the script by running **chmod +x run_app.sh**. Finally execute the script using the command **./run_app.sh**
-  
-However, you can manually run the application, just be sure to change the following things on the **application.properties** file, wich is located on the Backend folder, on **src/main/resources**: 
+- `Tu usuario y contraseña de la base de datos MySQL`: para cambiar las propiedades de la aplicación.
+- `Tu nombre de la base de datos MySQL`: si la base de datos no existe la creará.
+- `La ruta a los archivos de Spring Boot y React`: para ejecutar la aplicación.
 
-- `spring.datasource.url=jdbc:mysql://localhost:3306/your_db`: change your_db to the name of your existing database.
-- `spring.datasource.username=your_username`:change your_username to your mySQL username.
-- `spring.datasource.password=your_password`: change your_password to your mySQL password.
+Para ejecutar el script, primero navegue hasta el directorio donde guardó el script. Luego asegúrese de tener el permiso de ejecución para el script ejecutando **chmod +x run_app.sh**. Finalmente ejecute el script usando el comando **./run_app.sh**
 
-<p>Once you changed this things, you can execute the app. First make sure that your DATABASE server is on. Then run the Spring Boot application, you can run it for example on an IDE as IntellijIDEA. Finally, you can run the React app by using the command npm start on the react directory.</p>
+Sin embargo, puede ejecutar la aplicación manualmente, solo asegúrese de cambiar las siguientes cosas en el archivo **application.properties**, que se encuentra en la carpeta Backend, en **src/main/resources**:
 
+- `spring.datasource.url=jdbc:mysql://localhost:3306/your_db`: cambie your_db por el nombre de su base de datos existente.
+- `spring.datasource.username=your_username`: cambie your_username por su nombre de usuario de MySQL.
+- `spring.datasource.password=your_password`: cambie your_password por su contraseña de MySQL.
 
+<p>Una vez que haya cambiado estas cosas, puede ejecutar la aplicación. Primero asegúrese de que su servidor de BASE DE DATOS esté encendido. Luego, ejecuta la aplicación Spring Boot. Puedes ejecutarla, por ejemplo, en un IDE como IntellijIDEA. Por último, puedes ejecutar la aplicación React usando el comando npm start en el directorio de React.</p>
